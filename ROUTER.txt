@@ -1,0 +1,8 @@
+Router works using Maze Routing Algorithm which uses min heap with cost as key for expansion fron source till target.
+The router is capable of routing 2 point nets over 2 layers with a given bend and via penalty with non uniform cost on each grid to avoid congestion
+The router.cpp gives the routed path as OUTPUT File for each net in the for
+/// 1        -> NET NUMBER 1
+/// 1 4 8    -> SOURCE
+/// 1 4 7
+//  1 4 6    -> TARGET
+// 0         -> END
