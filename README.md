@@ -1,4 +1,4 @@
-# PLacer and Router Software using C++
+# Placer and Router Software using C++
 
 
 Code to implement the function of Placement and routing of standard cells using C++.
