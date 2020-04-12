@@ -6,7 +6,7 @@
 using namespace std;
 
 #define infname "../benchmarks/3QP/toy1"
-#define ofname "./MANISH"
+#define ofname "./outputs/placer_outputs/toy1"
 
 class Gate{
 	public :
