@@ -20,15 +20,18 @@ The placer program (placer.cpp) takes the number of gates,number of nets, number
 
 
 
-//*
-3 3                  ->Number of gates and nets
-1 2 1 2              ->Gate number, Number of nets connected to gate, Net number
+//Input File Format
+//Number of gates and nets ;
+3 3                  
+//Gate number, Number of nets connected to gate, Net numbers;
+1 2 1 2 
 2 2 2 3
 3 1 3
-2                   ->Number of pads
-1 1 0 100           ->Pad number, Net connected to net, Pad_x_pos, Pad_y_pos
+//Number of pads;
+2           
+//Pad number, Net connected to net, Pad_x_pos, Pad_y_pos;
+1 1 0 100           
 2 3 100 0
-*//
 
 USE BELOW LINK For Visualization of Placer output (Use one of the outputs present in placer_outputs folder)
 
